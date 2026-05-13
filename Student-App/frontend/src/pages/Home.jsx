@@ -1,4 +1,5 @@
 function Home() {
+<<<<<<< HEAD
 
   const courses = [
     {
@@ -55,3 +56,21 @@ function Home() {
 }
 
 export default Home
+=======
+  const courses = ["Python", "Java", "React"];
+
+  return (
+    <div>
+      <h1>Courses</h1>
+
+      {courses.map((course, index) => (
+        <div key={index}>
+          <h2>{course}</h2>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export default Home;
+>>>>>>> 0a65165a6a5fa28d9d003af542b086a521f4d352
